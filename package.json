@@ -6,13 +6,13 @@
   "scripts": {
     "start": "node cluster.js",
     "startsingle": "node server.js",
-    "nodemon": "nodemon server.js"
-     },
+    "nodemon": "nodemon server.js",
+    "postinstall": "cd .. && git clone https://github.com/vbxdesignstudio/VBI_DX_Suite && cd VBI_DX_Suite && git fetch && git checkout aps-tool && cd .. && git clone https://github.com/vbxdesignstudio/PowerBI && cd PowerBI && git fetch && git checkout aps-tool"
+  },
   "author": "visualbi",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.0",
-    "babel-runtime": "^6.26.0",
     "bcryptjs": "2.4.3",
     "bluebird": "3.5.0",
     "config": "^1.26.2",
