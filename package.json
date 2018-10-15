@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node cluster.js",
     "startsingle": "node server.js",
-    "nodemon": "nodemon server.js",
-    //"postinstall": "cd .. && git clone https://github.com/vbxdesignstudio/VBI_DX_Suite && cd VBI_DX_Suite && git fetch && git checkout aps-tool && cd .. && git clone https://github.com/vbxdesignstudio/PowerBI && cd PowerBI && git fetch && git checkout aps-tool"
-  },
+    "nodemon": "nodemon server.js"
+     },
   "author": "visualbi",
   "license": "ISC",
   "dependencies": {
