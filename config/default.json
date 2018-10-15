@@ -1,0 +1,37 @@
+{
+    "dbConfig": {
+        "url": "mongodb://username:password@ds249092.mlab.com:49092/vbx_current",
+        "settings": {
+            "poolSize": 10
+        },
+        "decorate": true
+    },
+    "serverConfig": {
+        "host": "159.65.153.133",
+        "port": 8000
+    },
+    "jwt": {
+        "secretKey": "dsdwcdsd_SDsdRandsd_dsPdfd4545c1.+85d4s4d",
+        "alg": "HS256"
+    },
+    "crypto": {
+        "alg": "aes-256-ctr",
+        "secretKey": "aasdasf45rsd"
+    },
+    "application": {
+        "pbiSourceLocation": "../PowerBI",
+        "dsxSourceLocation": "../VBI_DX_Suite",
+        "localeLocation": "../VBI_DX_Suite/com.visualbi.vbisuite/res/library/language",
+        "mockTemplate": "../VBI_DX_Suite/aps-cli/templates/component-template.html",
+        "prodTemplate": "../VBI_DX_Suite/aps-cli/templates/component-template-prod.html",
+        "mockOutput": "../VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/mock/",
+        "prodOutput": "../VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/prod-html/",
+        "gitToken": "",
+        "gitUser": "VBX Design Studio",
+        "gitEmail": "vbxdesignstudio@gmail.com"
+    },
+    "webPush":{
+        "publicKey":"BARuwXrVcYpvQFWGkQErWCaz_RJavkVInWWPIeQu-MKAxgr6dHQB5KL5lXyc7dx2iJQQljzh89u3lBRp5q2-WwU",
+        "privateKey":"btonESxyfUCC1RVpmbF6ltni2gaeZkRSBW1ei4PmIv4"
+    }
+}
