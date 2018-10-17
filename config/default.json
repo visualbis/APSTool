@@ -30,8 +30,8 @@
         "gitUser": "VBX Design Studio",
         "gitEmail": "vbxdesignstudio@gmail.com"
     },
-    "webPush":{
-        "publicKey":"BARuwXrVcYpvQFWGkQErWCaz_RJavkVInWWPIeQu-MKAxgr6dHQB5KL5lXyc7dx2iJQQljzh89u3lBRp5q2-WwU",
-        "privateKey":"btonESxyfUCC1RVpmbF6ltni2gaeZkRSBW1ei4PmIv4"
+    "webPush": {
+        "publicKey": "BARuwXrVcYpvQFWGkQErWCaz_RJavkVInWWPIeQu-MKAxgr6dHQB5KL5lXyc7dx2iJQQljzh89u3lBRp5q2-WwU",
+        "privateKey": "btonESxyfUCC1RVpmbF6ltni2gaeZkRSBW1ei4PmIv4"
     }
 }
