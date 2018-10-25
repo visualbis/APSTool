@@ -4,8 +4,8 @@
   "description": "REST API to manage APS",
   "main": "index.js",
   "scripts": {
-    "startsingle": "node cluster.js",
-    "start": "node server.js",
+    "start": "node cluster.js",
+    "startsingle": "node server.js",
     "nodemon": "nodemon server.js",
     "postinstall": "node postinstall.js"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.0",
+    "babel-runtime": "^6.26.0",
     "bcryptjs": "2.4.3",
     "bluebird": "3.5.0",
     "config": "^1.26.2",
@@ -42,5 +43,9 @@
   "homepage": "https://github.com/visualbis/VBI_DX_Suite#readme",
   "publishConfig": {
     "registry": "@visualbi"
-  }
+  },
+  "cacheDirectories": [
+    "../VBI_DX_Suite",
+    "../PowerBI"
+  ]
 }
