@@ -43,5 +43,9 @@
   "homepage": "https://github.com/visualbis/VBI_DX_Suite#readme",
   "publishConfig": {
     "registry": "@visualbi"
-  }
+  },
+  "cacheDirectories": [
+    "../VBI_DX_Suite",
+    "../PowerBI"
+  ]
 }
