@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "startsingle": "node cluster.js",
     "nodemon": "nodemon server.js",
     "postinstall": "node postinstall.js"
   },
@@ -45,7 +44,7 @@
     "registry": "@visualbi"
   },
   "cacheDirectories": [
-    "../VBI_DX_Suite",
-    "../PowerBI"
+    "./VBI_DX_Suite",
+    "./PowerBI"
   ]
 }
