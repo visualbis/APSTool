@@ -4,8 +4,8 @@
   "description": "REST API to manage APS",
   "main": "index.js",
   "scripts": {
-    "start": "node cluster.js",
-    "startsingle": "node server.js",
+    "start": "node server.js",
+    "startsingle": "node cluster.js",
     "nodemon": "nodemon server.js",
     "postinstall": "node postinstall.js"
   },
