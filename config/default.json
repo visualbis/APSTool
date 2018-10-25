@@ -19,13 +19,13 @@
         "secretKey": "aasdasf45rsd"
     },
     "application": {
-        "pbiSourceLocation": "../PowerBI",
-        "dsxSourceLocation": "../VBI_DX_Suite",
-        "localeLocation": "../VBI_DX_Suite/com.visualbi.vbisuite/res/library/language",
-        "mockTemplate": "../VBI_DX_Suite/aps-cli/templates/component-template.html",
-        "prodTemplate": "../VBI_DX_Suite/aps-cli/templates/component-template-prod.html",
-        "mockOutput": "../VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/mock/",
-        "prodOutput": "../VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/prod-html/",
+        "pbiSourceLocation": "./PowerBI",
+        "dsxSourceLocation": "./VBI_DX_Suite",
+        "localeLocation": "./VBI_DX_Suite/com.visualbi.vbisuite/res/library/language",
+        "mockTemplate": "./VBI_DX_Suite/aps-cli/templates/component-template.html",
+        "prodTemplate": "./VBI_DX_Suite/aps-cli/templates/component-template-prod.html",
+        "mockOutput": "./VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/mock/",
+        "prodOutput": "./VBI_DX_Suite/com.visualbi.vbisuite/res/additionalProperty/prod-html/",
         "gitToken": "",
         "gitUser": "VBX Design Studio",
         "gitEmail": "vbxdesignstudio@gmail.com"
