@@ -17,6 +17,7 @@
     "bluebird": "3.5.0",
     "config": "^1.26.2",
     "d3-queue": "^3.0.7",
+    "dotenv": "^6.1.0",
     "handlebars": "^4.0.10",
     "hapi": "^16.5.2",
     "hapi-auth-jwt2": "^7.3.0",
@@ -27,7 +28,7 @@
     "lodash": "^4.17.4",
     "mongodb": "^2.2.31",
     "prettier": "^1.14.3",
-    "simple-git": "^1.105.0",
+    "simple-git": "^1.80.1",
     "translate": "^1.0.2",
     "web-push": "^3.2.5"
   },
