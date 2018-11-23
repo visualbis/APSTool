@@ -665,6 +665,14 @@ label.control-label {
   width: 70px;
 }
 
+.ql-dimension-member:after {
+  content: "Dimension Member";
+  width: 70px;
+}
+.ql-cell-selection:after {
+  content: "Cell Selection";
+  width: 70px;
+}
 .ql-measure:after {
   content: "Measure";
   width: 70px;
