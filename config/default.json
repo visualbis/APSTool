@@ -7,7 +7,7 @@
         "decorate": true
     },
     "serverConfig": {
-        "host": "localhost",
+        "host": "159.65.153.133",
         "port": 8000
     },
     "jwt": {
