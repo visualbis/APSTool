@@ -29,9 +29,13 @@ module powerbi.extensibility.visual {
     import DataViewObjectsParser = powerbi.extensibility.utils.dataview.DataViewObjectsParser;
   
     export class VisualSettings extends DataViewObjectsParser {
+        public bifrostSection = new BifrostSection();
         {{visualSettings}}
     }
 
     {{groupClasses}}
+    export class BifrostSection {
+	    public bifrost:string = "{}";
+    }
     
-  }
+}
