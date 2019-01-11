@@ -30,12 +30,17 @@ module powerbi.extensibility.visual {
   
     export class VisualSettings extends DataViewObjectsParser {
         public bifrostSection = new BifrostSection();
+        public license = new License();
         {{visualSettings}}
     }
 
     {{groupClasses}}
     export class BifrostSection {
 	    public bifrost:string = "{}";
+    }
+    export class License {
+        public key:string = "";
+        public customer:string = "";
     }
     
 }
