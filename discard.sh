@@ -2,6 +2,7 @@
 cd PowerBI
 git reset --hard upstream/master
 git push origin aps-tool --force
+cd ..
 cd VBI_DX_Suite
 git reset --hard upstream/master
 git push origin aps-tool --force
