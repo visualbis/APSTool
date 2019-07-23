@@ -24,23 +24,21 @@
  *  THE SOFTWARE.
  */
 
-module powerbi.extensibility.visual {
-    'use strict';
-    import DataViewObjectsParser = powerbi.extensibility.utils.dataview.DataViewObjectsParser;
-  
-    export class VisualSettings extends DataViewObjectsParser {
-        public bifrostSection = new BifrostSection();
-        public license = new License();
-        {{visualSettings}}
+import { dataViewObjectsParser } from '../../powerbi-visuals-common/node_modules/powerbi-visuals-utils-dataviewutils';
+import DataViewObjectsParser = dataViewObjectsParser.DataViewObjectsParser;
+
+export class VisualSettings extends DataViewObjectsParser {
+    public bifrostSection = new BifrostSection();
+    public license = new License();
+        { { visualSettings } }
     }
 
-    {{groupClasses}}
-    export class BifrostSection {
-	    public bifrost:string = "{}";
-    }
-    export class License {
-        public key:string = "";
-        public customer:string = "";
-    }
-    
+{ { groupClasses } }
+export class BifrostSection {
+    public bifrost: string = "{}";
 }
+export class License {
+    public key: string = "";
+    public customer: string = "";
+}
+
