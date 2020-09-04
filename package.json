@@ -28,7 +28,7 @@
     "jsonfile": "^5.0.0",
     "jsonwebtoken": "8.0.0",
     "lodash": "^4.17.4",
-    "mongodb": "^2.2.31",
+    "mongodb": "^3.6.1",
     "prettier": "^1.14.3",
     "simple-git": "^1.106.0",
     "translate": "^1.0.2",
